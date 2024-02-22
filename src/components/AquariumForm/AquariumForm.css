@@ -1,0 +1,50 @@
+.aquarium-form {
+  display: flex;
+  flex-direction: row;
+  width: 500px;
+  justify-content: space-around;
+}
+
+.inputs {
+  display: flex;
+  flex-direction: column;
+  margin-top: 1rem;
+  gap: 0.3rem;
+  padding-top: 0;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.dim {
+  font-size: 4rem;
+}
+
+.aquarium-form input {
+  height: 30px;
+  padding: 0.1rem 0.6rem;
+  border-radius: 14px;
+  border: none;
+}
+
+.aquarium-form button {
+  margin-top: 1rem;
+  padding: 0.5rem 2rem;
+  border-radius: 14px;
+  border: 2px solid rgb(168, 168, 168);
+  background-color: rgb(187, 255, 188);
+  color: black;
+  transition: 0.3s ease;
+}
+.aquarium-form button:hover {
+  background-color: rgb(58, 255, 107);
+}
+
+.aquarium-form button:disabled {
+  background-color: rgb(192, 192, 192);
+  border: 2px solid rgb(139, 139, 139);
+}
+
+.aquarium-form button:disabled:hover {
+  background-color: rgb(255, 0, 0);
+  border: 2px solid rgb(255, 0, 0);
+}

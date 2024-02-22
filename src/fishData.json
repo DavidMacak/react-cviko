@@ -1,0 +1,29 @@
+{
+  "fish": [
+    {
+      "id": 1,
+      "name": "Nemo",
+      "size": "small"
+    },
+    {
+      "id": 2,
+      "name": "Dory",
+      "size": "small"
+    },
+    {
+      "id": 3,
+      "name": "Patrick",
+      "size": "big"
+    },
+    {
+      "id": 4,
+      "name": "Krill",
+      "size": "small"
+    },
+    {
+      "id": 5,
+      "name": "František",
+      "size": "big"
+    }
+  ]
+}
